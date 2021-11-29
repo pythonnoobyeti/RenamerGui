@@ -5,7 +5,6 @@ from PIL import Image, ImageDraw, ImageFont
 from re import search
 from pdf2image import convert_from_path
 from io import BytesIO
-import cv2
 
 custome_config_mvms = {
     'mvms_number': ['--psm 7 --oem 1', '--psm 3 --oem 1', '--psm 9'],
